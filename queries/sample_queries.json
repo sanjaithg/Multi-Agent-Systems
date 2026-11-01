@@ -1,0 +1,126 @@
+[
+  {
+    "query_id": "s01",
+    "question": "How many members are in the karate club network?"
+  },
+  {
+    "query_id": "s02",
+    "question": "How many friendships (edges) does the karate club network contain?"
+  },
+  {
+    "query_id": "s03",
+    "question": "Which airport has the most non-stop routes departing from it?"
+  },
+  {
+    "query_id": "s04",
+    "question": "Who are the 3 most influential members of the karate club according to PageRank?"
+  },
+  {
+    "query_id": "s05",
+    "question": "What is the diameter of the karate club network?"
+  },
+  {
+    "query_id": "s06",
+    "question": "Is the project-assignment network bipartite?"
+  },
+  {
+    "query_id": "s07",
+    "question": "How many triangles are there in the karate club network?"
+  },
+  {
+    "query_id": "s08",
+    "question": "How many maximal cliques does the karate club network have?"
+  },
+  {
+    "query_id": "s09",
+    "question": "What is the size of the largest possible matching between students and projects?"
+  },
+  {
+    "query_id": "s10",
+    "question": "Which Les Miserables character has the highest betweenness centrality?"
+  },
+  {
+    "query_id": "s11",
+    "question": "Which karate club members are articulation points (cut vertices)?"
+  },
+  {
+    "query_id": "s12",
+    "question": "How many strongly connected components does the airline network have?"
+  },
+  {
+    "query_id": "s13",
+    "question": "How many members are in the 3-core of the karate club network?"
+  },
+  {
+    "query_id": "s14",
+    "question": "Is it possible to reach course CS101 from course CS102 by following prerequisites forwards?"
+  },
+  {
+    "query_id": "s15",
+    "question": "What is the minimum number of non-stop flights needed to get from Chennai to Anchorage?"
+  },
+  {
+    "query_id": "s16",
+    "question": "What is the shortest flying distance in km from Delhi to Sydney using the available routes?"
+  },
+  {
+    "query_id": "s17",
+    "question": "What is the average clustering coefficient of the karate club network?"
+  },
+  {
+    "query_id": "s18",
+    "question": "Which course has the highest in-degree, i.e. is a prerequisite-target of the most courses?"
+  },
+  {
+    "query_id": "s19",
+    "question": "Among the airports reachable from Chennai within 2 non-stop hops, which one has the highest PageRank within that sub-network?"
+  },
+  {
+    "query_id": "s20",
+    "question": "Among the airports in India, which has the most non-stop routes to other Indian airports?"
+  },
+  {
+    "query_id": "s21",
+    "question": "What is the clustering coefficient of the karate club member with the highest betweenness centrality?"
+  },
+  {
+    "query_id": "s22",
+    "question": "How many members are within 2 hops of the club's instructor in the karate network?"
+  },
+  {
+    "query_id": "s23",
+    "question": "What is the shortest path from the karate club administrator to the instructor?"
+  },
+  {
+    "query_id": "s24",
+    "question": "How many airports are located in India?"
+  },
+  {
+    "query_id": "s25",
+    "question": "What is the shortest route from London to Paris?"
+  },
+  {
+    "query_id": "s26",
+    "question": "Which airport is the best?"
+  },
+  {
+    "query_id": "s27",
+    "question": "Who is the most important one?"
+  },
+  {
+    "query_id": "s28",
+    "question": "What will be the cheapest ticket price from Chennai to Delhi next month?"
+  },
+  {
+    "query_id": "s29",
+    "question": "Which airport will have the most traffic in 2030?"
+  },
+  {
+    "query_id": "s30",
+    "question": "Add a new direct route from Chennai to Anchorage and recompute the network's PageRank."
+  },
+  {
+    "query_id": "s31",
+    "question": "Why did the karate club split into two groups?"
+  }
+]

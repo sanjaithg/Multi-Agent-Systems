@@ -1,0 +1,6350 @@
+{
+  "chosen": {
+    "articulation_points_bridges": "3237bc9e",
+    "betweenness_centrality": "2f7893e5",
+    "bipartite_check": "3c8c3c69",
+    "bipartite_matching": "3f28ff34",
+    "closeness_centrality": "7065a2b5",
+    "clustering_coefficient": "219c8a12",
+    "connected_components": "3237bc9e",
+    "degree_centrality": "54d073a3",
+    "degree_distribution": "63fb3e40",
+    "diameter_eccentricity": "ae9bcafc",
+    "ego_network": "b2d75536",
+    "girvan_newman": "3237bc9e",
+    "graph_summary": "2f7893e5",
+    "greedy_coloring": "4ebce3f0",
+    "hits": "219c8a12",
+    "k_core": "3f28ff34",
+    "k_hop_neighborhood": "32016695",
+    "label_propagation": "39bca602",
+    "link_prediction": "41c8e8e2",
+    "louvain": "f3b11984",
+    "max_flow_min_cut": "1e59ba80",
+    "maximal_cliques": "6e31812a",
+    "minimum_spanning_tree": "b2eb4e3d",
+    "motif_count": "ae9bcafc",
+    "node_embedding_similarity": "b2eb4e3d",
+    "node_similarity": "29a7a55d",
+    "pagerank": "29a7a55d",
+    "personalized_pagerank": "e7c02e9e",
+    "reachability": "7780ae37",
+    "shortest_path_unweighted": "8809b513",
+    "shortest_path_weighted": "32016695",
+    "strongly_connected_components": "2f7893e5",
+    "topological_sort": "63fb3e40"
+  },
+  "records": [
+    {
+      "tool": "articulation_points_bridges",
+      "impl": "3237bc9e",
+      "path": "curation/candidates/articulation_points_bridges/3237bc9e",
+      "checks": [
+        {
+          "name": "articulation set",
+          "pass": true
+        },
+        {
+          "name": "bridge count",
+          "pass": true
+        },
+        {
+          "name": "ap count",
+          "pass": true
+        },
+        {
+          "name": "lesmis ap count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "articulation_points_bridges",
+      "impl": "8f0a9ac4",
+      "path": "curation/candidates/articulation_points_bridges/8f0a9ac4",
+      "checks": [
+        {
+          "name": "articulation set",
+          "pass": true
+        },
+        {
+          "name": "bridge count",
+          "pass": true
+        },
+        {
+          "name": "ap count",
+          "pass": true
+        },
+        {
+          "name": "lesmis ap count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "articulation_points_bridges",
+      "impl": "f6f61ae0",
+      "path": "curation/candidates/articulation_points_bridges/f6f61ae0",
+      "checks": [
+        {
+          "name": "articulation set",
+          "pass": true
+        },
+        {
+          "name": "bridge count",
+          "pass": true
+        },
+        {
+          "name": "ap count",
+          "pass": true
+        },
+        {
+          "name": "lesmis ap count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "2f7893e5",
+      "path": "curation/candidates/betweenness_centrality/2f7893e5",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.53,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.95
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "fcd76f91",
+      "path": "curation/candidates/betweenness_centrality/fcd76f91",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.69,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.93
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "98eff80e",
+      "path": "curation/candidates/betweenness_centrality/98eff80e",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.05,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.97,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.9
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "f6f61ae0",
+      "path": "curation/candidates/betweenness_centrality/f6f61ae0",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.06,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 1.42,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.86
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "c1fb2ea9",
+      "path": "curation/candidates/betweenness_centrality/c1fb2ea9",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.06,
+      "correct": 0.8,
+      "dropped_params": [
+        "weighted"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 1.53,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 87.85
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "7b0e9b7e",
+      "path": "curation/candidates/betweenness_centrality/7b0e9b7e",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 0.6,
+      "dropped_params": [
+        "normalized",
+        "weighted"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.52,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 67.95
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "f897d4c5",
+      "path": "curation/candidates/betweenness_centrality/f897d4c5",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.06,
+      "correct": 0.6,
+      "dropped_params": [
+        "normalized",
+        "weighted"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 1.47,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 67.85
+    },
+    {
+      "tool": "betweenness_centrality",
+      "impl": "d69742a9",
+      "path": "curation/candidates/betweenness_centrality/d69742a9",
+      "checks": [
+        {
+          "name": "karate top5 normalized",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "unnormalized",
+          "pass": false
+        },
+        {
+          "name": "lesmis top5 (weighted flag)",
+          "pass": true
+        },
+        {
+          "name": "lesmis top5 (unweighted)",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 0.6,
+      "dropped_params": [
+        "normalized",
+        "weighted"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 4.51,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 67.55
+    },
+    {
+      "tool": "bipartite_check",
+      "impl": "3c8c3c69",
+      "path": "curation/candidates/bipartite_check/3c8c3c69",
+      "checks": [
+        {
+          "name": "projects true",
+          "pass": true
+        },
+        {
+          "name": "karate false",
+          "pass": true
+        },
+        {
+          "name": "lesmis false",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_check",
+      "impl": "62a230f4",
+      "path": "curation/candidates/bipartite_check/62a230f4",
+      "checks": [
+        {
+          "name": "projects true",
+          "pass": true
+        },
+        {
+          "name": "karate false",
+          "pass": true
+        },
+        {
+          "name": "lesmis false",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_check",
+      "impl": "6e31812a",
+      "path": "curation/candidates/bipartite_check/6e31812a",
+      "checks": [
+        {
+          "name": "projects true",
+          "pass": true
+        },
+        {
+          "name": "karate false",
+          "pass": true
+        },
+        {
+          "name": "lesmis false",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_check",
+      "impl": "7780ae37",
+      "path": "curation/candidates/bipartite_check/7780ae37",
+      "checks": [
+        {
+          "name": "projects true",
+          "pass": true
+        },
+        {
+          "name": "karate false",
+          "pass": true
+        },
+        {
+          "name": "lesmis false",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "3f28ff34",
+      "path": "curation/candidates/bipartite_matching/3f28ff34",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "54d073a3",
+      "path": "curation/candidates/bipartite_matching/54d073a3",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "8809b513",
+      "path": "curation/candidates/bipartite_matching/8809b513",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "8f0a9ac4",
+      "path": "curation/candidates/bipartite_matching/8f0a9ac4",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "c52598eb",
+      "path": "curation/candidates/bipartite_matching/c52598eb",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "d02c8330",
+      "path": "curation/candidates/bipartite_matching/d02c8330",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "e2346c64",
+      "path": "curation/candidates/bipartite_matching/e2346c64",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "bipartite_matching",
+      "impl": "f9857550",
+      "path": "curation/candidates/bipartite_matching/f9857550",
+      "checks": [
+        {
+          "name": "matching size",
+          "pass": true
+        },
+        {
+          "name": "matched nodes valid",
+          "pass": true
+        },
+        {
+          "name": "non-bipartite handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "closeness_centrality",
+      "impl": "7065a2b5",
+      "path": "curation/candidates/closeness_centrality/7065a2b5",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "single node",
+          "pass": true
+        },
+        {
+          "name": "airports top5 (in)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.65,
+      "correct": 1.0,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.4,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.96
+    },
+    {
+      "tool": "closeness_centrality",
+      "impl": "7b0e9b7e",
+      "path": "curation/candidates/closeness_centrality/7b0e9b7e",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "single node",
+          "pass": false
+        },
+        {
+          "name": "airports top5 (in)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.44,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction",
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.19,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.98
+    },
+    {
+      "tool": "closeness_centrality",
+      "impl": "7cc0c2d7",
+      "path": "curation/candidates/closeness_centrality/7cc0c2d7",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "single node",
+          "pass": false
+        },
+        {
+          "name": "airports top5 (in)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.61,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction",
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.35,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.97
+    },
+    {
+      "tool": "closeness_centrality",
+      "impl": "64036f4f",
+      "path": "curation/candidates/closeness_centrality/64036f4f",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "single node",
+          "pass": false
+        },
+        {
+          "name": "airports top5 (in)",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.65,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction",
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.4,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.96
+    },
+    {
+      "tool": "closeness_centrality",
+      "impl": "afc500fb",
+      "path": "curation/candidates/closeness_centrality/afc500fb",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": false
+        },
+        {
+          "name": "score value",
+          "pass": false
+        },
+        {
+          "name": "single node",
+          "pass": true
+        },
+        {
+          "name": "airports top5 (in)",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.25,
+      "correct": 0.25,
+      "dropped_params": [
+        "direction",
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 31.0
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "219c8a12",
+      "path": "curation/candidates/clustering_coefficient/219c8a12",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "d02c8330",
+      "path": "curation/candidates/clustering_coefficient/d02c8330",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "da50612d",
+      "path": "curation/candidates/clustering_coefficient/da50612d",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "6ae0e02c",
+      "path": "curation/candidates/clustering_coefficient/6ae0e02c",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.17,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "7065a2b5",
+      "path": "curation/candidates/clustering_coefficient/7065a2b5",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.16,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "7b0e9b7e",
+      "path": "curation/candidates/clustering_coefficient/7b0e9b7e",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.16,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "clustering_coefficient",
+      "impl": "3ddaa37e",
+      "path": "curation/candidates/clustering_coefficient/3ddaa37e",
+      "checks": [
+        {
+          "name": "m1 local",
+          "pass": true
+        },
+        {
+          "name": "m34 local",
+          "pass": true
+        },
+        {
+          "name": "karate average",
+          "pass": true
+        },
+        {
+          "name": "triangle-free node",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "3237bc9e",
+      "path": "curation/candidates/connected_components/3237bc9e",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.04,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "4ebce3f0",
+      "path": "curation/candidates/connected_components/4ebce3f0",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.04,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "e2346c64",
+      "path": "curation/candidates/connected_components/e2346c64",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.04,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "f9857550",
+      "path": "curation/candidates/connected_components/f9857550",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.04,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "991d1029",
+      "path": "curation/candidates/connected_components/991d1029",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "1e59ba80",
+      "path": "curation/candidates/connected_components/1e59ba80",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "connected_components",
+      "impl": "37c243f2",
+      "path": "curation/candidates/connected_components/37c243f2",
+      "checks": [
+        {
+          "name": "component count",
+          "pass": true
+        },
+        {
+          "name": "component sets",
+          "pass": true
+        },
+        {
+          "name": "largest size",
+          "pass": true
+        },
+        {
+          "name": "connected graph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "degree_centrality",
+      "impl": "54d073a3",
+      "path": "curation/candidates/degree_centrality/54d073a3",
+      "checks": [
+        {
+          "name": "karate top5 degree",
+          "pass": true
+        },
+        {
+          "name": "airports top5 out",
+          "pass": true
+        },
+        {
+          "name": "airports top5 in",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_centrality",
+      "impl": "62a230f4",
+      "path": "curation/candidates/degree_centrality/62a230f4",
+      "checks": [
+        {
+          "name": "karate top5 degree",
+          "pass": true
+        },
+        {
+          "name": "airports top5 out",
+          "pass": true
+        },
+        {
+          "name": "airports top5 in",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_centrality",
+      "impl": "c52598eb",
+      "path": "curation/candidates/degree_centrality/c52598eb",
+      "checks": [
+        {
+          "name": "karate top5 degree",
+          "pass": true
+        },
+        {
+          "name": "airports top5 out",
+          "pass": true
+        },
+        {
+          "name": "airports top5 in",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_centrality",
+      "impl": "a018559c",
+      "path": "curation/candidates/degree_centrality/a018559c",
+      "checks": [
+        {
+          "name": "karate top5 degree",
+          "pass": true
+        },
+        {
+          "name": "airports top5 out",
+          "pass": true
+        },
+        {
+          "name": "airports top5 in",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_centrality",
+      "impl": "f897d4c5",
+      "path": "curation/candidates/degree_centrality/f897d4c5",
+      "checks": [
+        {
+          "name": "karate top5 degree",
+          "pass": true
+        },
+        {
+          "name": "airports top5 out",
+          "pass": true
+        },
+        {
+          "name": "airports top5 in",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "63fb3e40",
+      "path": "curation/candidates/degree_distribution/63fb3e40",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "6e31812a",
+      "path": "curation/candidates/degree_distribution/6e31812a",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "c1fb2ea9",
+      "path": "curation/candidates/degree_distribution/c1fb2ea9",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "c4576e71",
+      "path": "curation/candidates/degree_distribution/c4576e71",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "c7c2ef65",
+      "path": "curation/candidates/degree_distribution/c7c2ef65",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "f3b11984",
+      "path": "curation/candidates/degree_distribution/f3b11984",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": true
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "degree_distribution",
+      "impl": "efd53284",
+      "path": "curation/candidates/degree_distribution/efd53284",
+      "checks": [
+        {
+          "name": "max degree",
+          "pass": true
+        },
+        {
+          "name": "mean degree",
+          "pass": false
+        },
+        {
+          "name": "count deg 2",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.6666666666666666,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 74.67
+    },
+    {
+      "tool": "diameter_eccentricity",
+      "impl": "ae9bcafc",
+      "path": "curation/candidates/diameter_eccentricity/ae9bcafc",
+      "checks": [
+        {
+          "name": "diameter",
+          "pass": true
+        },
+        {
+          "name": "radius",
+          "pass": true
+        },
+        {
+          "name": "ecc m17",
+          "pass": true
+        },
+        {
+          "name": "lesmis diameter",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.28,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.97
+    },
+    {
+      "tool": "diameter_eccentricity",
+      "impl": "ab9fb3a3",
+      "path": "curation/candidates/diameter_eccentricity/ab9fb3a3",
+      "checks": [
+        {
+          "name": "diameter",
+          "pass": true
+        },
+        {
+          "name": "radius",
+          "pass": true
+        },
+        {
+          "name": "ecc m17",
+          "pass": true
+        },
+        {
+          "name": "lesmis diameter",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.32,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.97
+    },
+    {
+      "tool": "diameter_eccentricity",
+      "impl": "991d1029",
+      "path": "curation/candidates/diameter_eccentricity/991d1029",
+      "checks": [
+        {
+          "name": "diameter",
+          "pass": true
+        },
+        {
+          "name": "radius",
+          "pass": true
+        },
+        {
+          "name": "ecc m17",
+          "pass": true
+        },
+        {
+          "name": "lesmis diameter",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.36,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.96
+    },
+    {
+      "tool": "diameter_eccentricity",
+      "impl": "d69742a9",
+      "path": "curation/candidates/diameter_eccentricity/d69742a9",
+      "checks": [
+        {
+          "name": "diameter",
+          "pass": true
+        },
+        {
+          "name": "radius",
+          "pass": false
+        },
+        {
+          "name": "ecc m17",
+          "pass": true
+        },
+        {
+          "name": "lesmis diameter",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 0.5,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 2.43,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 57.76
+    },
+    {
+      "tool": "ego_network",
+      "impl": "b2d75536",
+      "path": "curation/candidates/ego_network/b2d75536",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "ego_network",
+      "impl": "d35c782d",
+      "path": "curation/candidates/ego_network/d35c782d",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "ego_network",
+      "impl": "51616f3b",
+      "path": "curation/candidates/ego_network/51616f3b",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "ego_network",
+      "impl": "e1e14ad1",
+      "path": "curation/candidates/ego_network/e1e14ad1",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "ego_network",
+      "impl": "98eff80e",
+      "path": "curation/candidates/ego_network/98eff80e",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 83.0
+    },
+    {
+      "tool": "ego_network",
+      "impl": "afc500fb",
+      "path": "curation/candidates/ego_network/afc500fb",
+      "checks": [
+        {
+          "name": "karate ego",
+          "pass": true
+        },
+        {
+          "name": "karate ego m34",
+          "pass": true
+        },
+        {
+          "name": "airports out ego",
+          "pass": true
+        },
+        {
+          "name": "airports in ego",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction",
+        "k",
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 83.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "3237bc9e",
+      "path": "curation/candidates/girvan_newman/3237bc9e",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "3c8c3c69",
+      "path": "curation/candidates/girvan_newman/3c8c3c69",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "80ae2fd8",
+      "path": "curation/candidates/girvan_newman/80ae2fd8",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "c7c2ef65",
+      "path": "curation/candidates/girvan_newman/c7c2ef65",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "64036f4f",
+      "path": "curation/candidates/girvan_newman/64036f4f",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.09,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "afc500fb",
+      "path": "curation/candidates/girvan_newman/afc500fb",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.09,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "219c8a12",
+      "path": "curation/candidates/girvan_newman/219c8a12",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 18.41,
+      "airports_status": "ok",
+      "fast": false,
+      "score": 103.16
+    },
+    {
+      "tool": "girvan_newman",
+      "impl": "d35c782d",
+      "path": "curation/candidates/girvan_newman/d35c782d",
+      "checks": [
+        {
+          "name": "2-way split matches networkx",
+          "pass": true
+        },
+        {
+          "name": "3-way split matches networkx",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 89.33,
+      "airports_status": "error",
+      "fast": false,
+      "score": 100.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "2f7893e5",
+      "path": "curation/candidates/graph_summary/2f7893e5",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "41c8e8e2",
+      "path": "curation/candidates/graph_summary/41c8e8e2",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "5c98c8eb",
+      "path": "curation/candidates/graph_summary/5c98c8eb",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "64036f4f",
+      "path": "curation/candidates/graph_summary/64036f4f",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "a20d8c29",
+      "path": "curation/candidates/graph_summary/a20d8c29",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "graph_summary",
+      "impl": "80ae2fd8",
+      "path": "curation/candidates/graph_summary/80ae2fd8",
+      "checks": [
+        {
+          "name": "karate nodes",
+          "pass": true
+        },
+        {
+          "name": "karate edges",
+          "pass": true
+        },
+        {
+          "name": "karate density",
+          "pass": true
+        },
+        {
+          "name": "airports edges",
+          "pass": true
+        },
+        {
+          "name": "airports directed",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.8,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 88.0
+    },
+    {
+      "tool": "greedy_coloring",
+      "impl": "4ebce3f0",
+      "path": "curation/candidates/greedy_coloring/4ebce3f0",
+      "checks": [
+        {
+          "name": "color count plausible",
+          "pass": true
+        },
+        {
+          "name": "node query ok",
+          "pass": true
+        },
+        {
+          "name": "bipartite uses 2..4 colors",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "greedy_coloring",
+      "impl": "f28f69d7",
+      "path": "curation/candidates/greedy_coloring/f28f69d7",
+      "checks": [
+        {
+          "name": "color count plausible",
+          "pass": true
+        },
+        {
+          "name": "coloring proper",
+          "pass": true
+        },
+        {
+          "name": "bipartite uses 2..4 colors",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "greedy_coloring",
+      "impl": "54d073a3",
+      "path": "curation/candidates/greedy_coloring/54d073a3",
+      "checks": [
+        {
+          "name": "color count plausible",
+          "pass": true
+        },
+        {
+          "name": "node query ok",
+          "pass": true
+        },
+        {
+          "name": "bipartite uses 2..4 colors",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "greedy_coloring",
+      "impl": "8809b513",
+      "path": "curation/candidates/greedy_coloring/8809b513",
+      "checks": [
+        {
+          "name": "color count plausible",
+          "pass": true
+        },
+        {
+          "name": "node query ok",
+          "pass": true
+        },
+        {
+          "name": "bipartite uses 2..4 colors",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "hits",
+      "impl": "219c8a12",
+      "path": "curation/candidates/hits/219c8a12",
+      "checks": [
+        {
+          "name": "karate authority top5",
+          "pass": true
+        },
+        {
+          "name": "airports hub top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports authority top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports hub value",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.23,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "hits",
+      "impl": "98eff80e",
+      "path": "curation/candidates/hits/98eff80e",
+      "checks": [
+        {
+          "name": "karate authority top5",
+          "pass": true
+        },
+        {
+          "name": "airports hub top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports authority top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports hub value",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.07,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "hits",
+      "impl": "a20d8c29",
+      "path": "curation/candidates/hits/a20d8c29",
+      "checks": [
+        {
+          "name": "karate authority top5",
+          "pass": true
+        },
+        {
+          "name": "airports hub top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports authority top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports hub value",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "hits",
+      "impl": "f9857550",
+      "path": "curation/candidates/hits/f9857550",
+      "checks": [
+        {
+          "name": "karate authority top5",
+          "pass": true
+        },
+        {
+          "name": "airports hub top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports authority top5 (either weighting)",
+          "pass": true
+        },
+        {
+          "name": "airports hub value",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_core",
+      "impl": "3f28ff34",
+      "path": "curation/candidates/k_core/3f28ff34",
+      "checks": [
+        {
+          "name": "2-core",
+          "pass": true
+        },
+        {
+          "name": "3-core",
+          "pass": true
+        },
+        {
+          "name": "4-core",
+          "pass": true
+        },
+        {
+          "name": "empty core handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_core",
+      "impl": "51616f3b",
+      "path": "curation/candidates/k_core/51616f3b",
+      "checks": [
+        {
+          "name": "2-core",
+          "pass": true
+        },
+        {
+          "name": "3-core",
+          "pass": true
+        },
+        {
+          "name": "4-core",
+          "pass": true
+        },
+        {
+          "name": "empty core handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_core",
+      "impl": "b2d75536",
+      "path": "curation/candidates/k_core/b2d75536",
+      "checks": [
+        {
+          "name": "2-core",
+          "pass": true
+        },
+        {
+          "name": "3-core",
+          "pass": true
+        },
+        {
+          "name": "4-core",
+          "pass": true
+        },
+        {
+          "name": "empty core handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_core",
+      "impl": "d02c8330",
+      "path": "curation/candidates/k_core/d02c8330",
+      "checks": [
+        {
+          "name": "2-core",
+          "pass": true
+        },
+        {
+          "name": "3-core",
+          "pass": true
+        },
+        {
+          "name": "4-core",
+          "pass": true
+        },
+        {
+          "name": "empty core handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "32016695",
+      "path": "curation/candidates/k_hop_neighborhood/32016695",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "3c8c3c69",
+      "path": "curation/candidates/k_hop_neighborhood/3c8c3c69",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "b2eb4e3d",
+      "path": "curation/candidates/k_hop_neighborhood/b2eb4e3d",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "e7c02e9e",
+      "path": "curation/candidates/k_hop_neighborhood/e7c02e9e",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "3f28ff34",
+      "path": "curation/candidates/k_hop_neighborhood/3f28ff34",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 83.0
+    },
+    {
+      "tool": "k_hop_neighborhood",
+      "impl": "f1f54c61",
+      "path": "curation/candidates/k_hop_neighborhood/f1f54c61",
+      "checks": [
+        {
+          "name": "karate 2-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 1-hop subgraph",
+          "pass": true
+        },
+        {
+          "name": "airports out 2-hop",
+          "pass": true
+        },
+        {
+          "name": "airports in 1-hop",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.03,
+      "correct": 0.75,
+      "dropped_params": [
+        "direction"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 83.0
+    },
+    {
+      "tool": "label_propagation",
+      "impl": "39bca602",
+      "path": "curation/candidates/label_propagation/39bca602",
+      "checks": [
+        {
+          "name": "partition covers",
+          "pass": true
+        },
+        {
+          "name": "partition disjoint",
+          "pass": true
+        },
+        {
+          "name": "communities plausible",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "label_propagation",
+      "impl": "6ae0e02c",
+      "path": "curation/candidates/label_propagation/6ae0e02c",
+      "checks": [
+        {
+          "name": "partition covers",
+          "pass": true
+        },
+        {
+          "name": "partition disjoint",
+          "pass": true
+        },
+        {
+          "name": "communities plausible",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "label_propagation",
+      "impl": "a018559c",
+      "path": "curation/candidates/label_propagation/a018559c",
+      "checks": [
+        {
+          "name": "partition covers",
+          "pass": true
+        },
+        {
+          "name": "partition disjoint",
+          "pass": true
+        },
+        {
+          "name": "communities plausible",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.07,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "label_propagation",
+      "impl": "f1f54c61",
+      "path": "curation/candidates/label_propagation/f1f54c61",
+      "checks": [
+        {
+          "name": "partition covers",
+          "pass": true
+        },
+        {
+          "name": "partition disjoint",
+          "pass": true
+        },
+        {
+          "name": "communities plausible",
+          "pass": false
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.75,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.07,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.99
+    },
+    {
+      "tool": "link_prediction",
+      "impl": "41c8e8e2",
+      "path": "curation/candidates/link_prediction/41c8e8e2",
+      "checks": [
+        {
+          "name": "common_neighbors first pair",
+          "pass": true
+        },
+        {
+          "name": "common_neighbors best score",
+          "pass": true
+        },
+        {
+          "name": "jaccard first pair",
+          "pass": true
+        },
+        {
+          "name": "jaccard best score",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar first pair",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar best score",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "link_prediction",
+      "impl": "37c243f2",
+      "path": "curation/candidates/link_prediction/37c243f2",
+      "checks": [
+        {
+          "name": "common_neighbors first pair",
+          "pass": true
+        },
+        {
+          "name": "common_neighbors best score",
+          "pass": true
+        },
+        {
+          "name": "jaccard first pair",
+          "pass": true
+        },
+        {
+          "name": "jaccard best score",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar first pair",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar best score",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.19,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "link_prediction",
+      "impl": "d35c782d",
+      "path": "curation/candidates/link_prediction/d35c782d",
+      "checks": [
+        {
+          "name": "common_neighbors first pair",
+          "pass": true
+        },
+        {
+          "name": "common_neighbors best score",
+          "pass": true
+        },
+        {
+          "name": "jaccard first pair",
+          "pass": true
+        },
+        {
+          "name": "jaccard best score",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar first pair",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar best score",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.22,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "link_prediction",
+      "impl": "eaf1d77a",
+      "path": "curation/candidates/link_prediction/eaf1d77a",
+      "checks": [
+        {
+          "name": "common_neighbors first pair",
+          "pass": true
+        },
+        {
+          "name": "common_neighbors best score",
+          "pass": true
+        },
+        {
+          "name": "jaccard first pair",
+          "pass": true
+        },
+        {
+          "name": "jaccard best score",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar first pair",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar best score",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.22,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "link_prediction",
+      "impl": "92711a92",
+      "path": "curation/candidates/link_prediction/92711a92",
+      "checks": [
+        {
+          "name": "common_neighbors first pair",
+          "pass": true
+        },
+        {
+          "name": "common_neighbors best score",
+          "pass": true
+        },
+        {
+          "name": "jaccard first pair",
+          "pass": true
+        },
+        {
+          "name": "jaccard best score",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar first pair",
+          "pass": true
+        },
+        {
+          "name": "adamic_adar best score",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.35,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.97
+    },
+    {
+      "tool": "louvain",
+      "impl": "f3b11984",
+      "path": "curation/candidates/louvain/f3b11984",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "louvain",
+      "impl": "e7c02e9e",
+      "path": "curation/candidates/louvain/e7c02e9e",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.22,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "louvain",
+      "impl": "f28f69d7",
+      "path": "curation/candidates/louvain/f28f69d7",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.15,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "louvain",
+      "impl": "c4576e71",
+      "path": "curation/candidates/louvain/c4576e71",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.31,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.97
+    },
+    {
+      "tool": "louvain",
+      "impl": "f1f54c61",
+      "path": "curation/candidates/louvain/f1f54c61",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "louvain",
+      "impl": "91f2b762",
+      "path": "curation/candidates/louvain/91f2b762",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.8,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 87.99
+    },
+    {
+      "tool": "louvain",
+      "impl": "b2d75536",
+      "path": "curation/candidates/louvain/b2d75536",
+      "checks": [
+        {
+          "name": "partition covers/disjoint",
+          "pass": true
+        },
+        {
+          "name": "modularity >= 0.40",
+          "pass": true
+        },
+        {
+          "name": "reported modularity correct",
+          "pass": true
+        },
+        {
+          "name": "lesmis modularity >= 0.52",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.8,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.07,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 87.99
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "1e59ba80",
+      "path": "curation/candidates/max_flow_min_cut/1e59ba80",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.11,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "32016695",
+      "path": "curation/candidates/max_flow_min_cut/32016695",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.11,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "991d1029",
+      "path": "curation/candidates/max_flow_min_cut/991d1029",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.1,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "da50612d",
+      "path": "curation/candidates/max_flow_min_cut/da50612d",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.12,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "29a7a55d",
+      "path": "curation/candidates/max_flow_min_cut/29a7a55d",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.1,
+      "correct": 1.0,
+      "dropped_params": [
+        "capacity"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "3ddaa37e",
+      "path": "curation/candidates/max_flow_min_cut/3ddaa37e",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.11,
+      "correct": 1.0,
+      "dropped_params": [
+        "capacity"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "edba08e8",
+      "path": "curation/candidates/max_flow_min_cut/edba08e8",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": true
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.14,
+      "correct": 1.0,
+      "dropped_params": [
+        "capacity"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "max_flow_min_cut",
+      "impl": "5c98c8eb",
+      "path": "curation/candidates/max_flow_min_cut/5c98c8eb",
+      "checks": [
+        {
+          "name": "flow MAA->DEL",
+          "pass": true
+        },
+        {
+          "name": "flow BOM->JFK",
+          "pass": true
+        },
+        {
+          "name": "karate flow m1->m34",
+          "pass": false
+        },
+        {
+          "name": "karate flow m17->m12",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.15,
+      "correct": 0.5,
+      "dropped_params": [
+        "capacity"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 58.0
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "6e31812a",
+      "path": "curation/candidates/maximal_cliques/6e31812a",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": true
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.19,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "7065a2b5",
+      "path": "curation/candidates/maximal_cliques/7065a2b5",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": true
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.19,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "92711a92",
+      "path": "curation/candidates/maximal_cliques/92711a92",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": true
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.21,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "6ae0e02c",
+      "path": "curation/candidates/maximal_cliques/6ae0e02c",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": true
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "a018559c",
+      "path": "curation/candidates/maximal_cliques/a018559c",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": false
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.19,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.98
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "a20d8c29",
+      "path": "curation/candidates/maximal_cliques/a20d8c29",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": false
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.27,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.97
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "62a230f4",
+      "path": "curation/candidates/maximal_cliques/62a230f4",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": true
+        },
+        {
+          "name": "max size",
+          "pass": true
+        },
+        {
+          "name": "cliques of m1",
+          "pass": false
+        },
+        {
+          "name": "lesmis count",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 81.0
+    },
+    {
+      "tool": "maximal_cliques",
+      "impl": "ab9fb3a3",
+      "path": "curation/candidates/maximal_cliques/ab9fb3a3",
+      "checks": [
+        {
+          "name": "clique count",
+          "pass": false
+        },
+        {
+          "name": "max size",
+          "pass": false
+        },
+        {
+          "name": "cliques of m1",
+          "pass": false
+        },
+        {
+          "name": "lesmis count",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.0,
+      "dropped_params": [
+        "node"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 6.0
+    },
+    {
+      "tool": "minimum_spanning_tree",
+      "impl": "b2eb4e3d",
+      "path": "curation/candidates/minimum_spanning_tree/b2eb4e3d",
+      "checks": [
+        {
+          "name": "lesmis weight",
+          "pass": true
+        },
+        {
+          "name": "tree subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 33 edges",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.02,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "minimum_spanning_tree",
+      "impl": "3ddaa37e",
+      "path": "curation/candidates/minimum_spanning_tree/3ddaa37e",
+      "checks": [
+        {
+          "name": "lesmis weight",
+          "pass": true
+        },
+        {
+          "name": "tree subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 33 edges",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "minimum_spanning_tree",
+      "impl": "5c98c8eb",
+      "path": "curation/candidates/minimum_spanning_tree/5c98c8eb",
+      "checks": [
+        {
+          "name": "lesmis weight",
+          "pass": true
+        },
+        {
+          "name": "tree subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 33 edges",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "minimum_spanning_tree",
+      "impl": "96e40bd2",
+      "path": "curation/candidates/minimum_spanning_tree/96e40bd2",
+      "checks": [
+        {
+          "name": "lesmis weight",
+          "pass": true
+        },
+        {
+          "name": "tree subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 33 edges",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "minimum_spanning_tree",
+      "impl": "edba08e8",
+      "path": "curation/candidates/minimum_spanning_tree/edba08e8",
+      "checks": [
+        {
+          "name": "lesmis weight",
+          "pass": true
+        },
+        {
+          "name": "tree subgraph",
+          "pass": true
+        },
+        {
+          "name": "karate 33 edges",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "error",
+      "fast": true,
+      "score": 106.0
+    },
+    {
+      "tool": "motif_count",
+      "impl": "ae9bcafc",
+      "path": "curation/candidates/motif_count/ae9bcafc",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.11,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "motif_count",
+      "impl": "e1e14ad1",
+      "path": "curation/candidates/motif_count/e1e14ad1",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.08,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "motif_count",
+      "impl": "51616f3b",
+      "path": "curation/candidates/motif_count/51616f3b",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.23,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "motif_count",
+      "impl": "63fb3e40",
+      "path": "curation/candidates/motif_count/63fb3e40",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.4,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.96
+    },
+    {
+      "tool": "motif_count",
+      "impl": "81c01533",
+      "path": "curation/candidates/motif_count/81c01533",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.36,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.96
+    },
+    {
+      "tool": "motif_count",
+      "impl": "eaf1d77a",
+      "path": "curation/candidates/motif_count/eaf1d77a",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": true
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.47,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.95
+    },
+    {
+      "tool": "motif_count",
+      "impl": "37c243f2",
+      "path": "curation/candidates/motif_count/37c243f2",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": true
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": false
+        },
+        {
+          "name": "default call",
+          "pass": true
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.75,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.73,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 82.93
+    },
+    {
+      "tool": "motif_count",
+      "impl": "7cc0c2d7",
+      "path": "curation/candidates/motif_count/7cc0c2d7",
+      "checks": [
+        {
+          "name": "triangles",
+          "pass": false
+        },
+        {
+          "name": "wedges/open triads",
+          "pass": false
+        },
+        {
+          "name": "default call",
+          "pass": false
+        },
+        {
+          "name": "lesmis triangles",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 0.25,
+      "dropped_params": [
+        "motif"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.17,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 32.98
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "b2eb4e3d",
+      "path": "curation/candidates/node_embedding_similarity/b2eb4e3d",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "39bca602",
+      "path": "curation/candidates/node_embedding_similarity/39bca602",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.11,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "96e40bd2",
+      "path": "curation/candidates/node_embedding_similarity/96e40bd2",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.08,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "41c8e8e2",
+      "path": "curation/candidates/node_embedding_similarity/41c8e8e2",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.16,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.98
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "7780ae37",
+      "path": "curation/candidates/node_embedding_similarity/7780ae37",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.38,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.96
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "efd53284",
+      "path": "curation/candidates/node_embedding_similarity/efd53284",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.08,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 1.39,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.86
+    },
+    {
+      "tool": "node_embedding_similarity",
+      "impl": "4ebce3f0",
+      "path": "curation/candidates/node_embedding_similarity/4ebce3f0",
+      "checks": [
+        {
+          "name": "returns 5 other nodes",
+          "pass": true
+        },
+        {
+          "name": "deterministic",
+          "pass": true
+        },
+        {
+          "name": "neighbours dominate",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.43,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 2.42,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.76
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "29a7a55d",
+      "path": "curation/candidates/node_similarity/29a7a55d",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "39bca602",
+      "path": "curation/candidates/node_similarity/39bca602",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "81c01533",
+      "path": "curation/candidates/node_similarity/81c01533",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "ab9fb3a3",
+      "path": "curation/candidates/node_similarity/ab9fb3a3",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "d69742a9",
+      "path": "curation/candidates/node_similarity/d69742a9",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "node_similarity",
+      "impl": "eaf1d77a",
+      "path": "curation/candidates/node_similarity/eaf1d77a",
+      "checks": [
+        {
+          "name": "m1,m2 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m1,m2 common",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 jaccard",
+          "pass": true
+        },
+        {
+          "name": "m33,m34 common",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "pagerank",
+      "impl": "29a7a55d",
+      "path": "curation/candidates/pagerank/29a7a55d",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "airports top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "damping respected",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "pagerank",
+      "impl": "da50612d",
+      "path": "curation/candidates/pagerank/da50612d",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "airports top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "damping respected",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "pagerank",
+      "impl": "f3b11984",
+      "path": "curation/candidates/pagerank/f3b11984",
+      "checks": [
+        {
+          "name": "karate top5",
+          "pass": true
+        },
+        {
+          "name": "airports top5",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "damping respected",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "personalized_pagerank",
+      "impl": "e7c02e9e",
+      "path": "curation/candidates/personalized_pagerank/e7c02e9e",
+      "checks": [
+        {
+          "name": "top5 incl or excl seed",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "seed m34 top",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "personalized_pagerank",
+      "impl": "e1e14ad1",
+      "path": "curation/candidates/personalized_pagerank/e1e14ad1",
+      "checks": [
+        {
+          "name": "top5 incl or excl seed",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "seed m34 top",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "seeds"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "personalized_pagerank",
+      "impl": "81c01533",
+      "path": "curation/candidates/personalized_pagerank/81c01533",
+      "checks": [
+        {
+          "name": "top5 incl or excl seed",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "seed m34 top",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "seeds"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "personalized_pagerank",
+      "impl": "c52598eb",
+      "path": "curation/candidates/personalized_pagerank/c52598eb",
+      "checks": [
+        {
+          "name": "top5 incl or excl seed",
+          "pass": true
+        },
+        {
+          "name": "score value",
+          "pass": true
+        },
+        {
+          "name": "seed m34 top",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 1.0,
+      "dropped_params": [
+        "seeds"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.06,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 107.99
+    },
+    {
+      "tool": "reachability",
+      "impl": "7780ae37",
+      "path": "curation/candidates/reachability/7780ae37",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "reachability",
+      "impl": "7cc0c2d7",
+      "path": "curation/candidates/reachability/7cc0c2d7",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "reachability",
+      "impl": "91f2b762",
+      "path": "curation/candidates/reachability/91f2b762",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "reachability",
+      "impl": "92711a92",
+      "path": "curation/candidates/reachability/92711a92",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "reachability",
+      "impl": "f6f61ae0",
+      "path": "curation/candidates/reachability/f6f61ae0",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "reachability",
+      "impl": "fcd76f91",
+      "path": "curation/candidates/reachability/fcd76f91",
+      "checks": [
+        {
+          "name": "CS101->CS102",
+          "pass": true
+        },
+        {
+          "name": "CS102->CS101",
+          "pass": true
+        },
+        {
+          "name": "CS101->CS304",
+          "pass": true
+        },
+        {
+          "name": "CS101->MA101",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "8809b513",
+      "path": "curation/candidates/shortest_path_unweighted/8809b513",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "8f0a9ac4",
+      "path": "curation/candidates/shortest_path_unweighted/8f0a9ac4",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.04,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.03,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "96e40bd2",
+      "path": "curation/candidates/shortest_path_unweighted/96e40bd2",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "ae9bcafc",
+      "path": "curation/candidates/shortest_path_unweighted/ae9bcafc",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "edba08e8",
+      "path": "curation/candidates/shortest_path_unweighted/edba08e8",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_unweighted",
+      "impl": "f28f69d7",
+      "path": "curation/candidates/shortest_path_unweighted/f28f69d7",
+      "checks": [
+        {
+          "name": "m1->m34 length",
+          "pass": true
+        },
+        {
+          "name": "m1->m34 path valid",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 length",
+          "pass": true
+        },
+        {
+          "name": "m17->m30 path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "no path handled",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_weighted",
+      "impl": "32016695",
+      "path": "curation/candidates/shortest_path_weighted/32016695",
+      "checks": [
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK length",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK path valid",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 length",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 path valid",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_weighted",
+      "impl": "91f2b762",
+      "path": "curation/candidates/shortest_path_weighted/91f2b762",
+      "checks": [
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK length",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK path valid",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 length",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 path valid",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_weighted",
+      "impl": "c4576e71",
+      "path": "curation/candidates/shortest_path_weighted/c4576e71",
+      "checks": [
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK length",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK path valid",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 length",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 path valid",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.02,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "shortest_path_weighted",
+      "impl": "f897d4c5",
+      "path": "curation/candidates/shortest_path_weighted/f897d4c5",
+      "checks": [
+        {
+          "name": "MAA->ANC length",
+          "pass": true
+        },
+        {
+          "name": "MAA->ANC path valid",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD length",
+          "pass": true
+        },
+        {
+          "name": "DEL->SYD path valid",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK length",
+          "pass": true
+        },
+        {
+          "name": "MAA->JFK path valid",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 length",
+          "pass": true
+        },
+        {
+          "name": "c01->c70 path valid",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.05,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.01,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "strongly_connected_components",
+      "impl": "2f7893e5",
+      "path": "curation/candidates/strongly_connected_components/2f7893e5",
+      "checks": [
+        {
+          "name": "DAG count",
+          "pass": true
+        },
+        {
+          "name": "airports largest",
+          "pass": true
+        },
+        {
+          "name": "airports count",
+          "pass": true
+        },
+        {
+          "name": "largest subgraph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.05,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.05,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "strongly_connected_components",
+      "impl": "e2346c64",
+      "path": "curation/candidates/strongly_connected_components/e2346c64",
+      "checks": [
+        {
+          "name": "DAG count",
+          "pass": true
+        },
+        {
+          "name": "airports largest",
+          "pass": true
+        },
+        {
+          "name": "airports count",
+          "pass": true
+        },
+        {
+          "name": "largest subgraph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.05,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.05,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "strongly_connected_components",
+      "impl": "fcd76f91",
+      "path": "curation/candidates/strongly_connected_components/fcd76f91",
+      "checks": [
+        {
+          "name": "DAG count",
+          "pass": true
+        },
+        {
+          "name": "airports largest",
+          "pass": true
+        },
+        {
+          "name": "airports count",
+          "pass": true
+        },
+        {
+          "name": "largest subgraph",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.05,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.05,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "strongly_connected_components",
+      "impl": "80ae2fd8",
+      "path": "curation/candidates/strongly_connected_components/80ae2fd8",
+      "checks": [
+        {
+          "name": "DAG count",
+          "pass": true
+        },
+        {
+          "name": "airports largest",
+          "pass": true
+        },
+        {
+          "name": "airports count",
+          "pass": true
+        },
+        {
+          "name": "largest subgraph",
+          "pass": false
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.01,
+      "correct": 0.75,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 83.0
+    },
+    {
+      "tool": "topological_sort",
+      "impl": "63fb3e40",
+      "path": "curation/candidates/topological_sort/63fb3e40",
+      "checks": [
+        {
+          "name": "all nodes",
+          "pass": true
+        },
+        {
+          "name": "order valid",
+          "pass": true
+        },
+        {
+          "name": "undirected graph handled",
+          "pass": true
+        },
+        {
+          "name": "cyclic graph is error/not sorted",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "topological_sort",
+      "impl": "1e59ba80",
+      "path": "curation/candidates/topological_sort/1e59ba80",
+      "checks": [
+        {
+          "name": "all nodes",
+          "pass": true
+        },
+        {
+          "name": "order valid",
+          "pass": true
+        },
+        {
+          "name": "undirected graph handled",
+          "pass": true
+        },
+        {
+          "name": "cyclic graph is error/not sorted",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "topological_sort",
+      "impl": "c1fb2ea9",
+      "path": "curation/candidates/topological_sort/c1fb2ea9",
+      "checks": [
+        {
+          "name": "all nodes",
+          "pass": true
+        },
+        {
+          "name": "order valid",
+          "pass": true
+        },
+        {
+          "name": "undirected graph handled",
+          "pass": true
+        },
+        {
+          "name": "cyclic graph is error/not sorted",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "topological_sort",
+      "impl": "c7c2ef65",
+      "path": "curation/candidates/topological_sort/c7c2ef65",
+      "checks": [
+        {
+          "name": "all nodes",
+          "pass": true
+        },
+        {
+          "name": "order valid",
+          "pass": true
+        },
+        {
+          "name": "undirected graph handled",
+          "pass": true
+        },
+        {
+          "name": "cyclic graph is error/not sorted",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    },
+    {
+      "tool": "topological_sort",
+      "impl": "efd53284",
+      "path": "curation/candidates/topological_sort/efd53284",
+      "checks": [
+        {
+          "name": "all nodes",
+          "pass": true
+        },
+        {
+          "name": "order valid",
+          "pass": true
+        },
+        {
+          "name": "undirected graph handled",
+          "pass": true
+        },
+        {
+          "name": "cyclic graph is error/not sorted",
+          "pass": true
+        }
+      ],
+      "notes": [],
+      "validate_errors": [],
+      "check_seconds": 0.0,
+      "correct": 1.0,
+      "dropped_params": [
+        "top_k"
+      ],
+      "graceful_error": true,
+      "airports_seconds": 0.0,
+      "airports_status": "ok",
+      "fast": true,
+      "score": 108.0
+    }
+  ]
+}

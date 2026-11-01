@@ -1,0 +1,198 @@
+{
+  "s01": {
+    "status": "answered",
+    "type": "number",
+    "value": 34,
+    "ordered": false
+  },
+  "s02": {
+    "status": "answered",
+    "type": "number",
+    "value": 78,
+    "ordered": false
+  },
+  "s03": {
+    "status": "answered",
+    "type": "node",
+    "value": "FRA",
+    "ordered": false
+  },
+  "s04": {
+    "status": "answered",
+    "type": "node_list",
+    "value": [
+      "m34",
+      "m1",
+      "m33"
+    ],
+    "ordered": true
+  },
+  "s05": {
+    "status": "answered",
+    "type": "number",
+    "value": 5,
+    "ordered": false
+  },
+  "s06": {
+    "status": "answered",
+    "type": "boolean",
+    "value": true,
+    "ordered": false
+  },
+  "s07": {
+    "status": "answered",
+    "type": "number",
+    "value": 45,
+    "ordered": false
+  },
+  "s08": {
+    "status": "answered",
+    "type": "number",
+    "value": 36,
+    "ordered": false
+  },
+  "s09": {
+    "status": "answered",
+    "type": "number",
+    "value": 9,
+    "ordered": false
+  },
+  "s10": {
+    "status": "answered",
+    "type": "node",
+    "value": "c74",
+    "ordered": false
+  },
+  "s11": {
+    "status": "answered",
+    "type": "node_list",
+    "value": [
+      "m1"
+    ],
+    "ordered": false
+  },
+  "s12": {
+    "status": "answered",
+    "type": "number",
+    "value": 1,
+    "ordered": false
+  },
+  "s13": {
+    "status": "answered",
+    "type": "number",
+    "value": 22,
+    "ordered": false
+  },
+  "s14": {
+    "status": "answered",
+    "type": "boolean",
+    "value": false,
+    "ordered": false
+  },
+  "s15": {
+    "status": "answered",
+    "type": "number",
+    "value": 3,
+    "ordered": false
+  },
+  "s16": {
+    "status": "answered",
+    "type": "number",
+    "value": 10435.0,
+    "ordered": false
+  },
+  "s17": {
+    "status": "answered",
+    "type": "number",
+    "value": 0.5706384782076823,
+    "ordered": false
+  },
+  "s18": {
+    "status": "answered",
+    "type": "node",
+    "value": "CS305",
+    "ordered": false
+  },
+  "s19": {
+    "status": "answered",
+    "type": "node",
+    "value": "FRA",
+    "ordered": false
+  },
+  "s20": {
+    "status": "answered",
+    "type": "node",
+    "value": "BLR",
+    "ordered": false
+  },
+  "s21": {
+    "status": "answered",
+    "type": "number",
+    "value": 0.15,
+    "ordered": false
+  },
+  "s22": {
+    "status": "answered",
+    "type": "number",
+    "value": 25,
+    "ordered": false
+  },
+  "s23": {
+    "status": "answered",
+    "type": "path",
+    "value": [
+      "m34",
+      "m9",
+      "m1"
+    ],
+    "ordered": false
+  },
+  "s24": {
+    "status": "answered",
+    "type": "number",
+    "value": 8,
+    "ordered": false
+  },
+  "s25": {
+    "status": "clarification_needed",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s26": {
+    "status": "clarification_needed",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s27": {
+    "status": "clarification_needed",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s28": {
+    "status": "unsupported",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s29": {
+    "status": "unsupported",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s30": {
+    "status": "unsupported",
+    "type": null,
+    "value": null,
+    "ordered": false
+  },
+  "s31": {
+    "status": "unsupported",
+    "type": null,
+    "value": null,
+    "ordered": false
+  }
+}
